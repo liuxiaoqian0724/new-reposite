@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册登录页面</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h3 align="center">表格一</h3>
+<form action="http://10.7.1.98/taozhuo/form_data.php">
+<table border="1" cellspacing="0" width="500px" height="200px" align="center">
+	<tr>
+		<td colspan="2" align="center">用户登录</td>
+	</tr>
+	<tr>
+		<td >用户名：</td>
+		<td ><input type="test" name="username"></td>
+	</tr>
+	<tr>
+		<td>密码：</td>
+		<td><input type="password" name="psw"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+		<input type="button" name="button" value="登录">
+		<input type="submit" name="submit" value="注册"></td>
+	</tr>
+</table>
+<form>
+<br/>
+<br/>
+<br/>
+<br/>
+<br>
+<h3 align="center">表单二</h3>
+<form action="http://10.7.1.98/taozhuo/form_data.php">
+	<table border="0" cellspacing="0" width="700px" height="800px" align="center">
+	<tr>
+		<td>用户名：</td>
+		<td colspan="2"><input type="test" name="username"></td>
+	</tr>
+	<tr>
+		<td>密码：</td>
+		<td colspan="2"><input type="password" name="psw"></td>
+	</tr>
+	<tr>
+		<td>确认密码：</td>
+		<td colspan="2"><input type="password" name="psw"></td>
+	</tr>
+	<tr>
+		<td>性别:</td>
+		<td colspan="2"><input type="radio" name="sex" checked="checked">男<input type="radio" name="sex">女</td>
+	</tr>
+	<tr>
+		<td>生日：</td>
+		<td><select name="gongli"><option value="gongli">公历</option><option value="yangli">阳历</option>
+		</select>
+		<select name="years"><option value="nian">年</option><option value="1997">1997</option></select>
+		<select name="mouth"><option value="yue">月</option><option value="7yue">7月</option></select>
+		<select name="day"><option value="ri">日</option><option value="24">24号</option></select>
+		</td>
+	</tr>
+	<tr>
+		<td>所在地：</td>
+		<td><select name="adress"><option value="zhongguo">中国</option>
+		</select>
+		</select>
+		<select name="province"><option value="hebei">河北</option></select>
+		<select name="city"><option value="shijiazhuang">石家庄</option></select>
+		</td>
+	</tr>
+	<tr>
+		<td>验证码：</td>
+		<td><input type="test" name="yanzhengma">
+		<img src="image/p1.jpg" width="100px" height="30px" /></td>
+	</tr>
+	<tr>
+		<td>证件类型：</td>
+		<td><select name="type"><option value="idcard">身份证</option>
+		</select>	
+	</tr>
+	<tr>
+		<td>证件号：</td>
+		<td><input type="test" name="number"></td>
+	</tr>
+	<tr>
+		<td>爱好：</td>
+		<td><input type="checkbox" name="music">音乐
+			<input type="checkbox" name="read" checked="checked">读书
+			<input type="checkbox" name="dance" checked="checked">跳舞
+			<input type="checkbox" name="chess">下棋
+			<input type="checkbox" name="others">其他
+		</td>
+	</tr>
+	<tr>
+		<td>说明：</td>
+		<td><textarea rows="5" cols="40"></textarea></td>
+	</tr>
+	<tr>
+		<td>上传头像：</td>
+		<td><input type="file" name="head" value="上传头像"></td>
+	</tr>
+	<tr>
+		<td align="center" colspan="2"><input type="submit" name="submit" value="提交">
+		<input type="reset" name="reset" value="重置">
+		<input type="button" name="button" value="按钮"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
